@@ -146,10 +146,11 @@ first div in the grid  and place it in the grid. */
 .container div:first-child{
   grid-column: 1/-1;
   background-image: url(../images/header.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed; /* Parallax effect */     
+  background-position: center;  /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover;       /* Parallax effect */
+  height: 400px;                /* Parallax effect */
 }
 
 
